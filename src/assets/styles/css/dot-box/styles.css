@@ -1,0 +1,114 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {  font-family: sans-serif;
+  }
+
+body {
+  background: rgb(223, 223, 223);
+
+}
+
+.row {
+  display: flex;
+  font-size: 8px;
+}
+
+.row > * {
+  flex-shrink: 0;
+}
+
+.dot {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+}
+
+.hbar {
+  width: 20px;
+  height: 5px;
+}
+
+.vbar {
+  width: 5px;
+  height: 20px;
+}
+
+.clicker {
+  height: 18px;
+  width: 18px;
+}
+
+.hbar .clicker {
+  transform: translate(1px, -6px) rotate(45deg);
+}
+
+.vbar .clicker {
+  transform: translate(-6px, 1.5px) rotate(45deg);
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boardLayer {
+  padding: 50px;
+  background: white;
+}
+
+.infoBox {
+  text-align: center;
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.newGameBox {
+  margin-top: 20px;
+}
+
+.newGameBox input {
+  padding: 10px;
+  border: none;
+  width: 40px;
+  margin-right: 10px;
+}
+.newGameBox button {
+  padding: 10px;
+  border: none;
+}
+
+.containerInner {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+}
+
+.newGameBox span {
+  margin-right: 10px;
+  border: none;
+  display: inline-block;
+}
+
+.aboutBox {
+  margin-top: 40px;
+}
+
+.githublogo {
+  opacity: .1;
+}
+
+.githublogo:hover {
+  opacity: .7;
+}

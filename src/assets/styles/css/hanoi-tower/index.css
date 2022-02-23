@@ -1,0 +1,194 @@
+/* Common */
+.hidden {
+    opacity: 0;
+    transition: 0.5s all ease-in;
+}
+
+.lifted {
+    opacity: 0;
+    transition: 0.5s all ease-in;
+}
+
+.hovered {
+    color: #e5453d;
+    transition: 0.1s all ease-in;
+}
+
+/* Header */
+#app-header {
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    transition: 0.5s all ease-in;
+}
+
+#app-header img {
+    width: 1em;
+}
+
+#app-header h1 {
+    color: #fff;
+    font: .8em 'Exo', sans-serif;
+    margin: auto 0.1em;
+    text-transform: uppercase;
+}
+
+/* Panel */
+#panel {
+    background: #e5e5e5;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    height: 5em;
+    justify-content: space-around;
+    margin: 0 auto 1rem auto;
+    padding: 1rem 0;
+    transition: 0.5s all ease-in;
+    width: 60em;
+}
+
+#panel:hover {
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.60);
+    transition: 0.1s all ease-in;
+}
+
+#game-info {
+    width: 100%;
+    transition: 0.5s all ease-in;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.label {
+    align-self: center;
+    transition: 0.1s all ease-in;
+}
+
+#value-container {
+    display: flex;
+    left: 0.15rem;
+    position: relative;
+}
+
+#discs-controller {
+    position: relative;
+    left: 1rem;
+}
+
+.controller {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.controller {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.1s all ease-in;
+}
+
+.controller:hover {
+    color: #e5453d;
+    transition: 0.1s all ease-in;
+}
+
+#buttons {
+    width: 100%;
+    transition: 0.5s all ease-in;
+}
+
+.game-starter {
+    background: #c3443d;
+    border-radius: 0.5rem;
+    color: #d4d5d7;
+    padding: 0.3rem 1.5rem;
+    text-transform: capitalize;
+    transition: 0.1s all ease-in;
+}
+
+.game-starter:hover {
+    background: #e5453d;
+    color: #f7f8fb;
+    transition: 0.1s all ease-in;
+}
+
+
+/* Playground */
+#playground {
+    align-items: flex-end;
+    background: #e5e5e5;
+    border-radius: 1em;
+    display: flex;
+    height: 20em;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 60em;
+    transition: 0.5s all ease-in;
+}
+
+#playground .tower {
+    align-items: flex-end;
+    background: black;
+    border-left: 9em solid #e5e5e5;
+    border-right: 9em solid #e5e5e5;
+    border-bottom: 2em solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 15em;
+    height: 15em;
+    transition: 0.3s all ease-in;
+}
+
+#playground .tower .disc {
+    height: 1.8em;
+    width: 100%;
+    position: relative;
+    transition: 0.2s all ease-in;
+}
+
+#loader-container {
+    position: absolute;
+    top: 20.5rem;
+    width: 60em;
+    height: 20em;
+}
+
+#modal-container {
+    background: #fff;
+    height: 20em;
+    position: absolute;
+    top: 20.5rem;
+    width: 60em;
+    transition: 0.2s all ease-in;
+}
+
+.whitened {
+    background: #fff;
+    opacity: 0.7;
+}
+
+#loader {
+    width: 2.5rem;
+    height: auto;
+    left: 1rem;
+    top: 1rem;
+    position: relative;
+}
+
+#modal {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.55);
+    display: inline-block;
+    padding: 2.5rem 5rem;
+    transform: translateY(50%);
+}
+
+#modal-message {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}

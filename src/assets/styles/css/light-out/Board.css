@@ -1,0 +1,72 @@
+.Board,
+.Board-btn {
+  margin: 0 auto;
+  background-color: #130f40;
+  box-shadow: 5px 0px 21px 3px #ffffff, 0px 0px 70px 5px #2ed573;
+}
+
+.Board-h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+  animation: neon .08s ease-in-out infinite alternate;
+  margin: 0;
+}
+
+.Board-h1--2nd {
+  color: #f97272;
+  animation: neon--2 .08s ease-in-out infinite alternate;
+}
+
+.Board-btn {
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  color: #c6e2ff;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+@keyframes neon {
+  from {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92),
+      0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+
+  to {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+@keyframes neon--2 {
+  from {
+    text-shadow:
+      0 0 6px #f9c2c2,
+      0 0 30px #fa3232,
+      0 0 12px #ff7979,
+      0 0 21px #ff7979,
+      0 0 34px #ff7979,
+      0 0 54px #ff7979;
+  }
+
+  to {
+    text-shadow:
+      0 0 6px #f9c2c2,
+      0 0 30px #fa3232,
+      0 0 12px #ff7979,
+      0 0 22px #ff7979,
+      0 0 38px #ff7979,
+      0 0 60px #ff7979;
+  }
+}

@@ -1,0 +1,11 @@
+.status {
+  height: 20px;
+}
+
+.game-over {
+  color: red;
+}
+
+.win {
+  color: green;
+}

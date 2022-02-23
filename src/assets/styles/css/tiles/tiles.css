@@ -1,0 +1,21 @@
+.row-box-x {
+  /* display: flex; */
+  display: table;
+}
+.square-x {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  background-color: aqua;
+  border: solid 1px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Square.selected {
+  opacity: 0.5;
+}

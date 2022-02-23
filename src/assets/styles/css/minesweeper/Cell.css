@@ -1,0 +1,55 @@
+.cell {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2d6d6;
+}
+
+.cell-closed {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid #444;
+  border-bottom: 2px solid #444;
+  font-size: 11px;
+}
+
+.cell-open {
+  border: 2px solid transparent;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.cell-open-1 {
+  color: green;
+}
+
+.cell-open-2 {
+  color: blue;
+}
+
+.cell-open-3 {
+  color: red;
+}
+
+.cell-open-4 {
+  color: darkblue;
+}
+
+.cell-open-5 {
+  color: darkred;
+}
+
+.cell-open-6 {
+  color: turquoise;
+}
+
+.cell-open-7 {
+  color: black;
+}
+
+.cell-open-8 {
+  color: grey;
+}
