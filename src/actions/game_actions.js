@@ -8,7 +8,6 @@ export const INCREMENT_DISCS_NUM = 'INCREMENT_DISCS_NUM';
 export const DECREMENT_DISCS_NUM = 'DECREMENT_DISCS_NUM';
 // Minesweeper Logics
 
-
 export const setEndTower = (tower) => ({
   type: SET_END_TOWER,
   tower
