@@ -7,7 +7,6 @@ const getSavedValue = (key,initialValue) => {
 
     console.log('Saved value');
     if(initialValue instanceof Function) return initialValue();
-
     return initialValue;
 }
 
