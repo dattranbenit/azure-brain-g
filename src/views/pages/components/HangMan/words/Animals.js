@@ -122,7 +122,6 @@ export const animals = [
   'seagull',
   'dolphin',
   'shells',
-  'cormorant',
   'otter',
   'pelican',
   'coral',
