@@ -10,7 +10,7 @@ class HaNoiTower extends React.Component {
     return (
       <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
         <div className="app" style={{cursor: "pointer"}}>
-          <Header delay={300}/>
+          <Header delay={400}/>
           <Panel delay={100}/>
           <Game delay={300}/>
         </div>
