@@ -144,7 +144,6 @@ const Sudoku = () => {
       return;
     }
 
-    // moves registered when the value is not 0
     if (clickValue !== 0) setMovesTaken((moves) => moves + 1);
 
     let newGrid = arrayDeepCopy(grid);
@@ -153,20 +152,17 @@ const Sudoku = () => {
     // Marking the node valid or invalid depending on the grid
     checkBoard(newGrid);
 
-    // Checking if the player has won
     let playerWon = checkPlayerWon(newGrid);
     if (playerWon) {
       setIsPlayerWon(true);
       setShowGameDetails(true);
     }
 
-    // setting the value to the grid and also to the local storage
     setGrid(newGrid);
   };
 
   console.log("....");
 
-  // If we donot have anything in the local storage
   if (grid == null && startingGrid == null) handleNewGame(gameMode);
 
   return (
