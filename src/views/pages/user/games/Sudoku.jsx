@@ -204,7 +204,6 @@ const Sudoku = () => {
           hardMaxEmptyCells={hardMaxEmptyCells}
         />
       )}
-
       {showGameDetails && (
         <GameDetails
           closeModal={() => setShowGameDetails((show) => !show)}
