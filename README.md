@@ -1,6 +1,6 @@
 Link Demo: https://azure-brain-g.vercel.app/
 
-More info about AzureAms:
+More info about AzureAms Organisation:
 
  - Website: https://azureams.org/
 
